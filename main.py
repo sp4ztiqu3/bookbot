@@ -26,9 +26,6 @@ def char_count(words):
 
     return char_counts
 
-def sort_dicts(item):
-    return item["count"]
-
 file_path = "books/frankenstein.txt"
 with open(file_path) as f:
     file_contents = f.read()
